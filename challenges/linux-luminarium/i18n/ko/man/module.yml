@@ -1,0 +1,20 @@
+name: 문서 소화하기
+resources:
+- source: Resources
+  name: 참고 자료
+  content: |
+    - [man 페이지 온라인 저장소](https://man7.org/linux/man-pages/)
+- id: challenge-arg
+  name: 문서에서 배우기
+- id: challenge-arg-arg
+  name: 복잡한 사용법 배우기
+- id: man
+  name: 매뉴얼 읽기
+- id: man-search
+  name: 매뉴얼 안에서 검색하기
+- id: man-search-man
+  name: 매뉴얼 자체를 검색하기
+- id: help
+  name: 도움을 주는 프로그램들
+- id: builtins
+  name: 내장 명령어의 도움말

@@ -1,0 +1,12 @@
+name: 위험천만한 파괴
+resources:
+- id: forkbomb
+  name: 포크 폭탄
+- id: disk-doomsday
+  name: 디스크 공간 최후의 날
+- id: rm-rf-root
+  name: rm -rf /
+- id: rm-rf-root-read
+  name: rm -rf / 이후의 삶
+- id: rm-rf-root-search
+  name: rm -rf / 이후에 의미 찾기

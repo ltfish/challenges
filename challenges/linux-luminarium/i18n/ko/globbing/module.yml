@@ -1,0 +1,26 @@
+name: 파일 글로빙
+resources:
+- source: Further Reading
+  name: 더 읽어보기
+  content: |
+    - Bash 레퍼런스 매뉴얼의 [셸 확장(Shell Expansions) 절](https://www.gnu.org/software/bash/manual/html_node/Shell-Expansions.html)이 도움이 될 수 있습니다.
+- id: asterisk
+  name: '*로 매칭하기'
+- id: question
+  name: '?로 매칭하기'
+- id: bracket
+  name: '[]로 매칭하기'
+- id: bracket-absolute
+  name: '[]로 경로 매칭하기'
+- id: multiglob
+  name: 글로브 여러 개 쓰기
+- id: mixing
+  name: 글로브 섞어 쓰기
+- id: unmatching
+  name: 제외하는 글로빙
+- id: tab-completion
+  name: 탭 자동완성
+- id: tab-completion-options
+  name: 탭 자동완성의 여러 후보
+- id: tab-completion-command
+  name: 명령어 탭 자동완성

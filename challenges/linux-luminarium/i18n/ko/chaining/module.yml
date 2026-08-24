@@ -1,0 +1,26 @@
+name: 명령어 이어붙이기
+resources:
+- id: semicolon
+  name: 세미콜론으로 이어붙이기
+- id: and
+  name: 성공 위에 쌓아 올리기
+- id: or
+  name: 실패에 대처하기
+- id: script
+  name: 나의 첫 셸 스크립트
+- id: script-pipe
+  name: 스크립트 출력 리다이렉트하기
+- id: execution
+  name: 실행 가능한 셸 스크립트
+- id: shebang
+  name: 셔뱅 이해하기
+- id: script-args
+  name: 인자를 받는 스크립트
+- id: script-if
+  name: 조건문이 있는 스크립트
+- id: script-else
+  name: 기본 분기가 있는 스크립트
+- id: script-elif
+  name: 여러 조건이 있는 스크립트
+- id: reading-scripts
+  name: 셸 스크립트 읽기

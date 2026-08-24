@@ -1,0 +1,22 @@
+name: 셸 변수
+resources:
+- source: Resources
+  name: 참고 자료
+  content: |
+    - Linux Documentation Project에 [셸 변수](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html)에 대한 절이 있습니다.
+- id: echo
+  name: 변수 출력하기
+- id: setvar
+  name: 변수 설정하기
+- id: setvar-multi
+  name: 여러 단어로 된 변수
+- id: export
+  name: 변수 export 하기
+- id: env
+  name: export된 변수 출력하기
+- id: command-substitution
+  name: 명령어 출력 저장하기
+- id: read
+  name: 입력 읽기
+- id: readfile
+  name: 파일 읽기

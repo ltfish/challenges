@@ -1,0 +1,10 @@
+name: 사용자 풀어헤치기
+resources:
+- id: su
+  name: su로 root 되기
+- id: su-other
+  name: su로 다른 사용자 되기
+- id: su-crack
+  name: 비밀번호 크래킹
+- id: sudo
+  name: sudo 사용하기

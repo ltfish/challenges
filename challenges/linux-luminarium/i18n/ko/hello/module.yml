@@ -1,0 +1,14 @@
+name: 안녕하세요, 해커
+resources:
+- source: The Command Line
+  name: 커맨드 라인
+- source: Other Tutorials
+  name: 다른 튜토리얼
+  content: |
+    - 방대한 [bash 튜토리얼](https://bash.cyberciti.biz/guide/Main_Page).
+- id: hello
+  name: 명령어 입문
+- id: helloworld
+  name: 인자 입문
+- id: history
+  name: 명령어 기록

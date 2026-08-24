@@ -1,0 +1,37 @@
+name: 파이핑 연습하기
+resources:
+- source: Resources
+  name: 참고 자료
+  content: |
+    - 이 과제와도 관련이 있는 [리눅스 셸의 I/O 리다이렉션에 대한 글](https://web.archive.org/web/20220629044814/http://bencane.com:80/2012/04/16/unix-shell-the-art-of-io-redirection/).
+    - 리눅스의 [I/O 리다이렉션을 그림으로 설명한 훌륭한 가이드](http://www.rozmichelle.com/pipes-forks-dups/).
+- id: echo
+  name: 출력 리다이렉트하기
+- id: stdout-myflag
+  name: 출력 리다이렉트 더 해보기
+- id: append
+  name: 출력 이어붙이기
+- id: stderr-myflag
+  name: 에러 리다이렉트하기
+- id: stdin
+  name: 입력 리다이렉트하기
+- id: redir-then-grep
+  name: 저장한 결과에서 grep 하기
+- id: pipe-grep
+  name: 실시간 출력에서 grep 하기
+- id: stderr-grep
+  name: 에러에서 grep 하기
+- id: grep-invert
+  name: grep -v로 걸러내기
+- id: sed
+  name: sed로 걸러내기
+- id: tee
+  name: tee로 파이프 데이터 복제하기
+- id: procsub-read
+  name: 입력을 위한 프로세스 치환
+- id: procsub-write
+  name: 여러 프로그램에 쓰기
+- id: dualpiper
+  name: stderr와 stdout 나눠 파이프하기
+- id: fifo
+  name: 이름 있는 파이프

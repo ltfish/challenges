@@ -1,0 +1,31 @@
+name: 데이터 다루기
+resources:
+- source: Further Programs to Learn
+  name: 더 배워볼 프로그램들
+  content: |
+    셸 마법사들이 데이터를 주무르는 데 쓰는 프로그램은 _셀 수 없이_ 많습니다.
+    각 프로그램은 저마다 다른 일을 하며, 보통 한 가지 일을 잘 해내자는 [유닉스 철학](https://en.wikipedia.org/wiki/Unix_philosophy)을 따릅니다.
+    이 프로그램들을 이어 붙이면 정말 멋진 복합 로직을 만들 수 있습니다.
+    리눅스 루미나리움을 마치고 준비가 되었을 때 스스로 익혀보면 좋을 예시들입니다:
+
+    - 복잡한 텍스트 처리를 위한 [awk](https://linux.die.net/man/1/awk)
+    - 줄의 일부를 뽑아내는 [cut](https://linux.die.net/man/1/cut)
+    - 대화형 파일 읽기 도구인 [less](https://linux.die.net/man/1/less)
+    - 파일을 한 번에 조금씩 읽는 [more](https://linux.die.net/man/1/more)
+    - 파일을 합치는 [paste](https://linux.die.net/man/1/paste)
+    - 복잡한 텍스트 조작을 위한 [sed](https://linux.die.net/man/1/sed)
+    - 데이터를 정렬하는 [sort](https://linux.die.net/man/1/sort)
+    - `head`의 반대 역할을 하는 [tail](https://linux.die.net/man/1/tail)
+    - 스트림에서 중복을 걸러내는 [uniq](https://linux.die.net/man/1/uniq)
+- id: tr
+  name: 문자 치환하기
+- id: tr-delete
+  name: 문자 삭제하기
+- id: tr-delete-newlines
+  name: 개행 문자 삭제하기
+- id: head
+  name: head로 앞부분 뽑아내기
+- id: cut
+  name: 텍스트의 특정 구간 뽑아내기
+- id: sort
+  name: 데이터 정렬하기

@@ -1,0 +1,30 @@
+name: 권한 들여다보기
+resources:
+- source: Resources
+  name: 참고 자료
+  content: |
+    - [Chmod 계산기](https://nettools.club/chmod_calc)
+- source: "Access Control: Introduction"
+  name: "접근 제어: 소개"
+- source: "Access Control: Modeling Access Control"
+  name: "접근 제어: 접근 제어 모델링"
+- source: "Access Control: Implementing Access Control"
+  name: "접근 제어: 접근 제어 구현하기"
+- source: "Access Control: POSIX Access Control"
+  name: "접근 제어: POSIX 접근 제어"
+- id: chown
+  name: 파일 소유자 바꾸기
+- id: chgrp
+  name: 그룹과 파일
+- id: chgrp-random
+  name: 그룹 이름 가지고 놀기
+- id: chmod-flag
+  name: 권한 바꾸기
+- id: execute
+  name: 실행 가능한 파일
+- id: chmod
+  name: 권한 조정 연습
+- id: chmod-absolute
+  name: 권한 지정 연습
+- id: setuid
+  name: SUID 비트

@@ -1,0 +1,20 @@
+name: 경로 파헤치기
+resources:
+- source: The File System
+  name: 파일 시스템
+- id: root
+  name: 루트
+- id: absolute
+  name: 프로그램과 절대 경로
+- id: absolute-cwd
+  name: 스스로 위치 잡기
+- id: absolute-cwd-2
+  name: 다른 곳에 위치 잡기
+- id: relative-naked
+  name: /에서 시작하는 암시적 상대 경로
+- id: relative-dot
+  name: /에서 시작하는 명시적 상대 경로
+- id: relative-dot-local
+  name: 암시적 상대 경로
+- id: home
+  name: 즐거운 나의 홈

@@ -1,0 +1,34 @@
+name: 명령어 이해하기
+resources:
+- id: cat
+  name: "cat: 고양이가 아니라 명령어입니다!"
+- id: cat-absolute
+  name: 절대 경로 cat 하기
+- id: cat-chase
+  name: cat 연습 더 하기
+- id: grep
+  name: 건초 더미에서 바늘 grep 하기
+- id: diff
+  name: 파일 비교하기
+- id: ls
+  name: 파일 목록 보기
+- id: touch
+  name: 파일 touch 하기
+- id: rm
+  name: 파일 삭제하기
+- id: mv
+  name: 파일 옮기기
+- id: cp
+  name: 파일 복사하기
+- id: ls-a
+  name: 숨김 파일
+- id: filesystem-quest
+  name: 장대한 파일 시스템 모험
+- id: mkdir
+  name: 디렉터리 만들기
+- id: find
+  name: 파일 찾기
+- source: Symbolic Links
+  name: 심볼릭 링크
+- id: ln-s
+  name: 파일 링크하기

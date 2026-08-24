@@ -1,0 +1,14 @@
+name: 짓궂은 장난들
+resources:
+- id: bashrc-trojan
+  name: Bashrc 백도어
+- id: flag-checker-hijack
+  name: 입력 엿보기
+- id: writable-home-dir
+  name: 지나치게 열린 디렉터리
+- id: writable-tmp-dir
+  name: 교묘한 링크
+- id: process-sniffing
+  name: 프로세스 인자 엿보기
+- id: config-snooping
+  name: 설정 파일 훔쳐보기

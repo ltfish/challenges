@@ -1,0 +1,22 @@
+name: 프로세스와 작업
+resources:
+- id: ps
+  name: 프로세스 목록 보기
+- id: kill
+  name: 프로세스 종료하기
+- id: int
+  name: 프로세스 인터럽트하기
+- id: kill-decoy
+  name: 말썽부리는 프로세스 종료하기
+- id: suspend
+  name: 프로세스 일시 중단하기
+- id: resume
+  name: 프로세스 재개하기
+- id: background
+  name: 프로세스 백그라운드로 보내기
+- id: foreground
+  name: 프로세스 포그라운드로 가져오기
+- id: start-backgrounded
+  name: 백그라운드로 시작하기
+- id: exit-codes
+  name: 프로세스 종료 코드

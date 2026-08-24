@@ -1,0 +1,14 @@
+name: 터미널 멀티플렉싱
+resources:
+- id: launch-screen
+  name: screen 실행하기
+- id: detach-attach
+  name: 분리하고 다시 붙기
+- id: find-session
+  name: 세션 찾기
+- id: switch-windows
+  name: 윈도우 전환하기
+- id: detach-attach-tmux
+  name: 분리하고 다시 붙기 (tmux)
+- id: switch-windows-tmux
+  name: 윈도우 전환하기 (tmux)
